@@ -1,11 +1,11 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Models\Job;
+use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home', [
-        'greeting' => 'Hello World!'
+        'greeting' => 'Hello World!',
     ]);
 });
 
