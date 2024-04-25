@@ -14,9 +14,9 @@ add('writable_dirs', []);
 
 // Hosts
 
-host('68.183.5.65')
+host('161.35.157.190')
     ->set('remote_user', 'rsteuber')
-    ->set('deploy_path', '/home/rsteuber/applications/laravel-example/public_html');
+    ->set('deploy_path', '/var/www/test.top-feest.nl');
 
 // Hooks
 
